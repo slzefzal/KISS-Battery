@@ -4,6 +4,7 @@
 
 
 ![KISS_ESat](KISS_ESat.JPG)
+
 KISS Batterie aus dem ESat Projekt
 
 
@@ -44,4 +45,16 @@ Als Anbeuteile sind vorhanden:
 * Verschlussschrauben der Kühlkanäle
 * Verschraubung der Module
 * BMS
+
+
+
+![KISS_new01](KISS_new01.JPG)
+
+Neue KISS Batterie ald Rhino/Grasshopper Modell
+
+
+
+![Kiss_new02](KISS_new02.JPG)
+
+Platte mit Kühlkanal
 
