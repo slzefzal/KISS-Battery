@@ -1,7 +1,7 @@
 Zur Weiterführung der im ESat Projekt erstellten KISS-Batterie und zur Analyse der Ergebnisse, sollte diese in Rhino/Grasshopper neu aufgebaut werden.
-Dies sollte weitesgehend parametrisch sein.
+Diese sollte weitesgehend parametrisch sein.
 
-KISS Battarie aus dem ESat Projekt: 
+KISS Battarie aus dem ESat Projekt
 
 ![KISS_ESat](KISS_ESat.JPG)
 
@@ -15,7 +15,7 @@ KISS Battarie aus dem ESat Projekt:
 * Übergang des Kühlkanals zum Ein- bzw. Auslass
 
 
-# Folgende Anbauteile werden ebenfalls erstellt:
+# Folgende Anbauteile werden erstellt:
 
 * Verschlussschrauben der Kühlkanäle
 * Verschraubung der Module
@@ -42,3 +42,4 @@ Als Anbeuteile sind vorhanden:
 * Verschlussschrauben der Kühlkanäle
 * Verschraubung der Module
 * BMS
+
