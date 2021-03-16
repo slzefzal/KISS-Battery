@@ -1,5 +1,5 @@
 # Zur Weiterführung der im ESat Projekt erstellten KISS-Batterie und zur Analyse der Ergebnisse, sollte diese in Rhino/Grasshopper neu aufgebaut werden.
-Diese sollte weitesgehend parametrisch sein.
+# Diese sollte weitesgehend parametrisch sein.
 
 
 
