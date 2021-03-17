@@ -50,7 +50,7 @@ Als Anbeuteile sind vorhanden:
 
 ![KISS_new01](KISS_new01.JPG)
 
-Neue KISS Batterie ald Rhino/Grasshopper Modell
+Neue KISS Batterie als Rhino/Grasshopper Modell
 
 
 
