@@ -8,7 +8,7 @@
 KISS Batterie aus dem eSat Projekt
 
 
-## Die folgenden Eingabeparameter sollen vom Anwender parametrisch gesteuert werden können:
+## 1. Die folgenden Eingabeparameter sollen vom Anwender parametrisch gesteuert werden können:
 
 * Anzahl der Pouchzellen
 * Anzahl der Module
@@ -18,7 +18,7 @@ KISS Batterie aus dem eSat Projekt
 * Diverse Anbauteile
 
 
-## Folgende Anbauteile werden erstellt:
+## 1.1 Folgende Anbauteile werden erstellt:
 
 * Verschlussschrauben der Kühlkanäle
 * Verschraubungen der Module incl. Muttern
@@ -28,7 +28,7 @@ KISS Batterie aus dem eSat Projekt
 * Gehäuse mit seperatem Deckel
 
 
-## Die folgenden Daten sollen aus Grasshopper augelesen werden können:
+## 1.2 Die folgenden Daten sollen aus Grasshopper augelesen werden können:
 
 * Bauteile als STP-File (obj-File)
 * Anzahl der jeweiligen Bauteile als STP-File zur Erstellung einer Stückliste
@@ -37,7 +37,7 @@ KISS Batterie aus dem eSat Projekt
 * ...
 
 
-## Die Konstuktion soll in Grasshopper per json-File mit den folgenden Daten gesteuert werden können z.B.:
+## 1.3 Die Konstuktion soll in Grasshopper per json-File mit den folgenden Daten gesteuert werden können z.B.:
 
 * 'assy_id': 'Name xxx', Benennung
 * 'nracks': 9, Anzahl der Module
@@ -50,26 +50,26 @@ KISS Batterie aus dem eSat Projekt
 
 
 
-# Im Stand vom 18.03.2021 wurde folgendes umgesetzt:
+# 2. Im Stand vom 18.03.2021 wurde folgendes umgesetzt:
 
-Parametrisches Modell mit den oben angegebenen Anforderungen
+## 2.1 Parametrisches Modell mit den oben angegebenen Anforderungen
 
 
-Erstellte Anbauteile:
+## 2.2 Erstellte Anbauteile:
 
 * Verschlussschrauben der Kühlkanäle
 * Verschraubung der Module
 * BMS
 
 
-Noch nicht erstellte Anbauteile:
+## 2.3 Noch nicht erstellte Anbauteile:
 
 * Verkabelung der Pouchzellen
 * Rohrstücke (Schläuche) für den Ein- und Ausslass der Kühlung
 * Gehäuse mit seperatem Deckel
 
 
-# Darstellungen der erstellten Bauteile
+# 3. Darstellungen der erstellten Bauteile
 
 
 ![KISS_new01](KISS_new01.JPG)
@@ -122,12 +122,12 @@ Noch nicht erstellte Anbauteile:
 *KISS Batterie parametrisch, mit 5 Modulen und 50 Pouchzellen*
 
 
-# Ansteuern von Grasshopper per json-File
+# 4. Ansteuern von Grasshopper per json-File
 
 * noch nicht umgesetzt
 
 
-# Auslesen der relevanten Bauteile als stp-File
+# 5. Auslesen der relevanten Bauteile als stp-File
 
 * ... Beispiel
 * ...
