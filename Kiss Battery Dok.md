@@ -13,6 +13,7 @@ KISS Batterie aus dem eSat Projekt
 * Anzahl der Pouchzellen
 * Anzahl der Module
 * Plattenstärken
+* Wandstärke zwischen dem Kühlkanal und den Pouchzellen
 * Querschnitt des Kühlkanals als Rechteck (Breite und Tiefe)
 * Übergang des Kühlkanals zum Ein- bzw. Auslass
 * Diverse Anbauteile
