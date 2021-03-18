@@ -72,7 +72,7 @@ KISS Batterie aus dem eSat Projekt
 # 3. Darstellungen der erstellten Bauteile
 
 
-![KISS_new01](KISS_new01.JPG)
+![KISS_new01b](KISS_new01b.JPG)
 
 *Neue KISS Batterie als Rhino/Grasshopper Modell*
 
@@ -117,7 +117,7 @@ KISS Batterie aus dem eSat Projekt
 *Grundplatte mit parametrischem Kühlkanal 20x2mm*
 
 
-![Kiss_new09](KISS_new09.JPG)
+![Kiss_new09b](KISS_new09b.JPG)
 
 *KISS Batterie parametrisch, mit 5 Modulen und 50 Pouchzellen*
 
