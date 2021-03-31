@@ -125,8 +125,40 @@ KISS Batterie aus dem eSat Projekt
 
 # 4. Ansteuern von Grasshopper per json-File
 
-* noch nicht umgesetzt
+Die Auslegung der KISS Batterie wird in Rhino/Grasshopper durch die manuelle Eingabe der gewünschten Parameter wie z.B. die Anzahl der Pouchzellen, die Anzahl der Module, oder die Querschnittsangaben des Kühlkanals durchgeführt. Dies hat zu Folge, das immer nur ein Modell generiert wird und der Anwender für eine andere Auslegung die hierfür notwendigen Parameter erneut manuell festlegen muss. Hierdurch ist eine schnelle Analyse unterschiedlicher Battrie Auslegungen nicht gegeben.
 
+Damit eine grosse Anzahl unterschiedlicher Auslegungen in möglichst kurzer Zeit ohne den Anwender erstellt und analysiert werden kann, soll es möglich ermöglicht werden,bereits vordefinierte Auslegungen in einer Datei anzugeben, welche alle notwendigen Parameter beinhalten. Als Eingabeformat wurde .json gewählt.
+
+
+![Kiss_new11](KISS_new11.JPG)
+
+*Beispiel einer .json Input Datei*
+
+
+Mittels eines Python Scrpts wird die json-Datei eingelesen und in ein für Grasshopper "lesbares" Format (object) umgewandelt. In einem weiteren Schritt werden automatisch die gewünschen Daten ausgelesen und an die jeweiligen Module übermittelt. Diese generieren daraufhin automatisch die gewünsche Auslegung.
+
+![Kiss_new13](KISS_new13.JPG)
+
+*Einlesen und umwandeln der json-Datei*
+
+
+![Kiss_new14](KISS_new14.JPG)
+
+*Auslesen der notwendigen Daten*
+
+Mittels einer vorher definierten Benennung, welche ebenfalls im Modell dargestellt wird, kann für die Analyse eine eindeutige Zuordnung der unterschiedlichen Auslegungen stattfinden.
+
+![Kiss_new17](KISS_new17.JPG)
+
+*Benennungen der unterschiedlichen Auslegungen*
+
+![Kiss_new15](KISS_new15.JPG)
+
+*Auslegung mit 10 Modulen und 140 Pouchzellen*
+
+![Kiss_new16](KISS_new16.JPG)
+
+*Auslegung mit 6 Modulen und 60 Pouchzellen*
 
 # 5. Auslesen der relevanten Bauteile als stp-File
 
