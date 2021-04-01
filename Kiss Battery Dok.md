@@ -51,7 +51,7 @@ KISS Batterie aus dem eSat Projekt
 
 
 
-# 2. Im Stand vom 18.03.2021 wurde folgendes umgesetzt:
+# 2. Folgende Arbeiten wurden bisher umgesetzt:
 
 ## 2.1 Parametrisches Modell mit den oben angegebenen Anforderungen
 
@@ -125,9 +125,9 @@ KISS Batterie aus dem eSat Projekt
 
 # 4. Ansteuern von Grasshopper per json-File
 
-Die Auslegung der KISS Batterie wird in Rhino/Grasshopper durch die manuelle Eingabe der gewünschten Parameter wie z.B. die Anzahl der Pouchzellen, die Anzahl der Module, oder die Querschnittsangaben des Kühlkanals durchgeführt. Dies hat zu Folge, das immer nur ein Modell generiert wird und der Anwender für eine andere Auslegung die hierfür notwendigen Parameter erneut manuell festlegen muss. Hierdurch ist eine schnelle Analyse unterschiedlicher Battrie Auslegungen nicht gegeben.
+Die Auslegung der KISS Batterie wird in Rhino/Grasshopper durch die manuelle Eingabe der gewünschten Parameter wie z.B. die Anzahl der Pouchzellen, die Anzahl der Module, oder die Querschnittsangaben des Kühlkanals durchgeführt. Dies hat zur Folge, das immer nur ein Modell generiert wird und der Anwender für eine andere Auslegung die hierfür notwendigen Parameter erneut manuell festlegen muss. Hierdurch ist eine schnelle Generierung sowie die anschliessende Analyse unterschiedlicher Battrieauslegungen nicht gegeben.
 
-Damit eine grosse Anzahl unterschiedlicher Auslegungen in möglichst kurzer Zeit ohne den Anwender erstellt und analysiert werden kann, soll es möglich ermöglicht werden,bereits vordefinierte Auslegungen in einer Datei anzugeben, welche alle notwendigen Parameter beinhalten. Als Eingabeformat wurde .json gewählt.
+Damit eine grosse Anzahl unterschiedlicher Auslegungen in möglichst kurzer Zeit ohne den Anwender erstellt und analysiert werden kann, soll es ermöglicht werden, bereits vordefinierte Auslegungen in einer Datei anzugeben, welche alle notwendigen Parameter beinhalten. Als Eingabeformat wurde .json gewählt.
 
 
 ![Kiss_new11](KISS_new11.JPG)
@@ -135,7 +135,7 @@ Damit eine grosse Anzahl unterschiedlicher Auslegungen in möglichst kurzer Zeit
 *Beispiel einer .json Input Datei*
 
 
-Mittels eines Python Scrpts wird die json-Datei eingelesen und in ein für Grasshopper "lesbares" Format (object) umgewandelt. In einem weiteren Schritt werden automatisch die gewünschen Daten ausgelesen und an die jeweiligen Module übermittelt. Diese generieren daraufhin automatisch die gewünsche Auslegung.
+Mittels eines Python Scrpts wird die json-Datei eingelesen und in ein für Grasshopper "lesbares" Format (object) umgewandelt. In einem weiteren Schritt werden automatisch die gewünschen Daten ausgelesen und an die jeweiligen Grasshopper Module übermittelt. Diese generieren daraufhin automatisch die gewünsche Auslegung.
 
 ![Kiss_new13](KISS_new13.JPG)
 
