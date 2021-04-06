@@ -125,7 +125,7 @@ KISS Batterie aus dem eSat Projekt
 
 # 4. Ansteuern von Grasshopper per json-File
 
-Die Auslegung der KISS Batterie wird in Rhino/Grasshopper durch die manuelle Eingabe der gewünschten Parameter wie z.B. die Anzahl der Pouchzellen, die Anzahl der Module, oder die Querschnittsangaben des Kühlkanals durchgeführt. Dies hat zur Folge, das immer nur ein Modell generiert wird und der Anwender für eine andere Auslegung die hierfür notwendigen Parameter erneut manuell festlegen muss. Hierdurch ist eine schnelle Generierung sowie die anschliessende Analyse unterschiedlicher Battrieauslegungen nicht gegeben.
+Die Auslegung der KISS Batterie wird in Rhino/Grasshopper durch die manuelle Eingabe der gewünschten Parameter wie z.B. die Anzahl der Pouchzellen, die Anzahl der Module, oder die Querschnittsangaben des Kühlkanals durchgeführt. Dies hat zur Folge, das immer nur ein Modell generiert wird und der Anwender für eine unterschiedliche Auslegung die hierfür notwendigen Parameter erneut manuell festlegen muss. Hierdurch ist eine schnelle Generierung sowie die anschliessende Analyse unterschiedlicher Battrieauslegungen nicht gegeben.
 
 Damit eine grosse Anzahl unterschiedlicher Auslegungen in möglichst kurzer Zeit ohne den Anwender erstellt und analysiert werden kann, soll es ermöglicht werden, bereits vordefinierte Auslegungen in einer Datei anzugeben, welche alle notwendigen Parameter beinhalten. Als Eingabeformat wurde .json gewählt.
 
@@ -135,7 +135,16 @@ Damit eine grosse Anzahl unterschiedlicher Auslegungen in möglichst kurzer Zeit
 *Beispiel einer .json Input Datei*
 
 
-Mittels eines Python Scrpts wird die json-Datei eingelesen und in ein für Grasshopper "lesbares" Format (object) umgewandelt. In einem weiteren Schritt werden automatisch die gewünschen Daten ausgelesen und an die jeweiligen Grasshopper Module übermittelt. Diese generieren daraufhin automatisch die gewünsche Auslegung.
+Mittels eines Python Scripts wird die lokal auf dem Rechner liegende json-Datei in Rhino Grasshopper eingelesen.
+Damit die gewünschten Informationen ausgelesen werden können, ist es notwendig, diese in ein für Grasshopper lesbares Format (object) umzuwandeln. Eine Möglichkeit hierfür bieten die Zusatzmodule von "Shape Diver". Diese können auf der Internetseite "Food 4 Rhino" hruntergeladen werden. In einem weiteren Schritt werden die gewünschen Daten ausgelesen und an die jeweiligen Grasshopper Module übermittelt. Diese generieren daraufhin automatisch die gewünsche Auslegung der KISS Batterie.
+
+
+https://www.food4rhino.com/app/shapediver
+
+![Kiss_new18](KISS_new18.JPG)
+
+*ShapeDiver*
+
 
 ![Kiss_new13](KISS_new13.JPG)
 
