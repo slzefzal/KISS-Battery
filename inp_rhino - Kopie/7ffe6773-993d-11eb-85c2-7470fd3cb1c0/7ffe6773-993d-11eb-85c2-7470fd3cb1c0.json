@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "assy_id": "7ffe6773-993d-11eb-85c2-7470fd3cb1c0",
+      "nracks": 18,
+      "ncells": 4,
+      "channel_width": 18.249552576780697,
+      "channel_height": 4.015419419568,
+      "t_wall": 2.7107095323474,
+      "t_baseplate_without_channel": 2.0,
+      "t_endplate": 2.0
+    }
+  ]
+}
