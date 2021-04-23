@@ -3,7 +3,7 @@
     [
         {
         "assy_id": "Battery_01",
-        "nracks": 3,
+        "nracks": 2,
         "ncells": 5,
         "channel_width": 20.0,
         "channel_height": 1.5,
