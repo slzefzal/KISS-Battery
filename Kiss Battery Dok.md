@@ -173,7 +173,7 @@ Mittels einer vorher definierten Benennung, welche ebenfalls im Modell dargestel
 
 # 5. Starten von Rhino / Grasshopper per Kommandozeile
 
-Eine zusätzöliche Möglichkeit des Startens von Rhino / Grasshopper, besteht in der Möglichkeit, dies mittels einer batch-Datei zu realisieren. Hierfür wird in der Kommandozeile des Systems eine vorher erstellte Batch-Datei ausgeführt, welche die notwendigen Pfadangaben, sowie die auszuführende Grasshopper Datei enthällt.
+Eine zusätzliche Möglichkeit des Startens von Rhino / Grasshopper, besteht in der Möglichkeit, dies mittels einer batch-Datei zu realisieren. Hierfür wird in der Kommandozeile des Systems eine vorher erstellte Batch-Datei ausgeführt, welche die notwendigen Pfadangaben, sowie die auszuführende Grasshopper Datei enthällt.
 Nach dem Starten wird die Grasshopper Datei automatisch geöffnet und das Modell dargestellt.
 
 
