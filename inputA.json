@@ -1,0 +1,15 @@
+{
+    "data": 
+    [
+        {
+        "assy_id": "Battery_01",
+        "nracks": 2,
+        "ncells": 6,
+        "channel_width": 5.0,
+        "channel_height": 1.5,
+        "t_wall": 1.2,
+        "t_baseplate_without_channel": 2.0,
+        "t_endplate": 2.0
+        }
+    ]
+}
