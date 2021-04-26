@@ -169,7 +169,29 @@ Mittels einer vorher definierten Benennung, welche ebenfalls im Modell dargestel
 
 *Auslegung mit 6 Modulen und 60 Pouchzellen*
 
-# 5. Auslesen der relevanten Bauteile als stp-File
 
-* ... Beispiel
+
+# 5. Starten von Rhino / Grasshopper per Kommandozeile
+
+Eine zusätzöliche Möglichkeit des Startens von Rhino / Grasshopper, besteht in der Möglichkeit, dies mittels einer batch-Datei zu realisieren. Hierfür wird in der Kommandozeile des Systems eine vorher erstellte Batch-Datei ausgeführt, welche die notwendigen Pfadangaben, sowie die auszuführende Grasshopper Datei enthällt.
+Nach dem Starten wird die Grasshopper Datei automatisch geöffnet und das Modell dargestellt.
+
+
+![Kiss_new19](KISS_new19.JPG)
+
+*Ausführen der Batch Datei in der Kommandozeile*
+
+# 6. Erstellen einer Sückliste
+
 * ...
+* ...
+
+# 7. Auslesen der relevanten Bauteile als stp-File
+
+* ...
+* ...
+
+
+# 8. Fazit
+
+...
