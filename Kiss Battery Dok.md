@@ -201,4 +201,8 @@ Die gesamte Baugruppe wird so Branch für Branch nach Bauteiltyp gelooped, bis a
 
 # 8. Fazit
 
-...
+Die Erstellung der 3D Geometrie mittels eines Grasshopper Workflows funktioniert eindwandfrei. Es gelingt jedoch nicht x-verschiedene Designgs nacheinander zu generieren und diese dann entsprechend als Metadaten zu speichen. Das Problem hierbei ist, sobald man in Grasshopper mehrere JSON Files hineinlädt überlagern sich die Daten in den Listen und es kann keine klare Zuordnung der Daten erfolgen, dies ist darin begründet das es nur eine Unterteilung von Branch und Listen gibt.
+
+Ein anderer Ansatz, welchen versucht wurde ist, die X-Input Files extern per script einzulesen. Dies ist nicht möglich das über die RHINO Python Script Kommandozeile keine beliebige Anzahl von Scripts eingelesen werden kann. 
+
+Einen Workaround gibt es für Rhino 7: https://www.rhino3d.com/features/rhino-inside/  oder alternativ mit der Software der Elise GmbH.
