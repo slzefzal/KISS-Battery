@@ -185,14 +185,18 @@ Nach dem Starten wird die Grasshopper Datei automatisch geöffnet und das Modell
 
 In Grasshopper wurde ein Modul mittels der Programmiersprache C# programmiert, welches eine Stückliste der gesamten Baugruppe generiert. 
 Folgende Daten werden in die Stückliste geschrieben: Bauteil ID, Bauteil Name, Bauteil Volumen [mm³].
-Die Bauteil ID ist hierbei identisch mit der ID des generierten STEP Files eines jeden Bauteils.
+Die Bauteil ID ist hierbei identisch mit der ID des generierten stp Files eines jeden Bauteils.
 
 ![BoM](BoM.JPG)
 
+Die Erstellung der Stückliste ist direkt in dasselbe C# Modul für die Erstellung der stp-File integriert.
+
 # 7. Auslesen der relevanten Bauteile als stp-File
 
-* ...
-* ...
+Grasshopper liesst die gesamte Geometrie mittels dem "Bake" befehl im Rhino aus, ist die Geometrie in Rhino "gebaked" kann diese als stp File dort exportiert werden. 
+Die gesamte Baugruppe wird so Branch für Branch nach Bauteiltyp gelooped, bis alle 3D Daten erzeugt wurden. Die Bennenung der Daten erfolgt gemäß der Bauteil ID aus der Stückliste.
+
+![stp_files](stp_files.JPG)
 
 
 # 8. Fazit
