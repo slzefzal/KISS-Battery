@@ -183,8 +183,10 @@ Nach dem Starten wird die Grasshopper Datei automatisch geöffnet und das Modell
 
 # 6. Erstellen einer Sückliste
 
-* ...
-* ...
+In Grasshopper wurde ein Modul mittels der Programmiersprache C# programmiert, welches eine Stückliste der gesamten Baugruppe generiert. 
+Folgende Daten werden in die Stückliste geschrieben: Bauteil ID, Bauteil Name, Bauteil Volumen [mm³].
+Die Bauteil ID ist hierbei identisch mit der ID des generierten STEP Files eines jeden Bauteils.
+![BoM](BoM.JPG)
 
 # 7. Auslesen der relevanten Bauteile als stp-File
 
